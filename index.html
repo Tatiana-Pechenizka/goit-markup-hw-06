@@ -379,7 +379,7 @@
         </address>
       </div>
       <div class="footer-soc">
-        <p class="soc-text">Приєднуйтесь</p>
+        <p class="footer-text">Приєднуйтесь</p>
         <ul class="foorer-soc-list list">
           <li class="footer-soc-item"><a href="" target="_blank"
                 rel="noopener noreferrer nofolow" class="footer-soc-link link">
@@ -402,6 +402,16 @@
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg></a></li>
         </ul>
+      </div>
+      <div class="footer-submit">
+        <p class="footer-text">Підпишіться на розсилку</p>
+        <div class="footer-input-box">
+          <input type="email" name="footer-email" class="footer-input" placeholder="E-mail" />
+          <button type="button" class="btn-submit">Підписатися
+            <svg class="submit-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-submit"></use>
+          </svg></button>
+        </div>
       </div>
     </div>
     </footer>
@@ -445,6 +455,17 @@
           <div class="input-box">
             <label for="user-comment" class="input-label">Коментар</label>
           <textarea name="user-comment" id="user-comment" class="comment-text" placeholder="Введіть текст"></textarea>
+          </div>
+          <div class="input-box-privacy">
+            <input type="checkbox" name="privacy" id="privacy" class="check-input visually-hidden" />
+            <label for="privacy" class="check-text">
+              <span>
+                <svg class="check-icon" width="16" height="15">
+                <use href="/images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              Погоджуюся з розсилкою та приймаю <a href="#" class="check-link link">Умови договору</a>
+            </label>
           </div>
           <button type="submit" class="btn-send">Відправити</button>
         </form>
