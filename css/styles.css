@@ -597,6 +597,12 @@ border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  transition: var(--transition-hover-bg);
+}
+.btn-submit:hover,
+.btn-submit:focus {
+  background: var(--secondary-blue-color);
 }
 .submit-icon {
   
