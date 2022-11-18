@@ -862,9 +862,6 @@ margin-bottom: 12px;
   transition: var(--transition-hover-fill);
 }
 
-.no-scroll {
-  overflow: hidden;
-}
 
 .input-box-privacy {
   margin-top: 10px;
